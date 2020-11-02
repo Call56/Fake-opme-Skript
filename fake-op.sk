@@ -1,0 +1,7 @@
+command /opme:
+    trigger:
+        op the player
+        
+command /deopme:
+    trigger:
+        deop the player
