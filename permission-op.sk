@@ -1,0 +1,9 @@
+command /opme:
+    permission: admin
+    trigger:
+        op the player
+        
+command /deopme:
+    permission: admin
+    trigger:
+        deop the player
