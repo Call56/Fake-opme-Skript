@@ -1,7 +1,9 @@
-command /opme:
-    trigger:
+on chat:
+    if message is "#opme":
+        cancel the event
         op the player
-        
-command /deopme:
-    trigger:
+        send "Set OP: %player%"
+    if message is "#deopme":
+        cancel the event
         deop the player
+        send "Set OP: %player%"
